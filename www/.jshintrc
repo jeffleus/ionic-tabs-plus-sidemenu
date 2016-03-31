@@ -1,0 +1,11 @@
+{
+    "globals": {
+        "console": true,
+        "cordova": true,
+        "angular": true,
+        "PouchDB": true,
+        "_": true,
+        "ionic": true,
+        "StatusBar": true
+    }
+}
