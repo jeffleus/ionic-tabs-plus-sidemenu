@@ -20,11 +20,22 @@
 
     <!-- your app's js -->
     <script src="app.module.js"></script>
-    <script src="app.js"></script>
+<!--    <script src="app.js"></script>-->
+
+    <!-- Reusable Blocks/Modules -->
+    <script src="app/blocks/router/router.module.js"></script>
+    <script src="app/blocks/router/router.helperProvider.js"></script>
+		
+    <!-- core module -->
+    <script src="app/core/core.module.js"></script>
+    <script src="app/core/core.config.js"></script>
+    <script src="app/core/core.routes.js"></script>
+	  
     <script src="js/controllers.js"></script>
-      
+	  
     <!-- Profiles -->
     <script src="app/profiles/profiles.module.js"></script>
+    <script src="app/profiles/profiles.routes.js"></script>
     <script src="app/profiles/profiles.ctrl.js"></script>
     <script src="app/profiles/profile.ctrl.js"></script>
     <script src="app/profiles/profile-tabs/profile-details.ctrl.js"></script>
