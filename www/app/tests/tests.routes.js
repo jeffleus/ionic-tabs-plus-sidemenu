@@ -18,11 +18,11 @@
 			{
 				state: 'app.test',
 				config: {
-					url: '/calculator',
+					url: '/test',
 					views: {
       					'menu-content': {
-        					templateUrl: "app/calculator/calculator.html",
-        					controller: 'CalculatorCtrl as vm'
+        					templateUrl: "app/tests/test.html",
+        					controller: 'TestCtrl as vm'
       					}
 					}
 				}
