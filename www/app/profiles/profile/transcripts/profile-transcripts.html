@@ -1,5 +1,8 @@
 <ion-view view-title="{{vm.student.last + ', ' + vm.student.first}}">
   <ion-content>
     <h2>Transcripts</h2>
+  	<ion-list>
+		<ion-item ng-repeat="t in vm.transcripts">{{t.title}}</ion-item>
+  	</ion-list>
   </ion-content>
 </ion-view>

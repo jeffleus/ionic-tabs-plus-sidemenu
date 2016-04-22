@@ -14,5 +14,6 @@
         var self = this;
         $log.log('Controller Init: ' + controllerId);
         self.student = {first:'Jeff', last:'Leininger'};
+		self.transcripts = [{title:'Spring 2015'},{title:'Fall 2015'},{title:'Spring 2016'}];
 	}
 })();

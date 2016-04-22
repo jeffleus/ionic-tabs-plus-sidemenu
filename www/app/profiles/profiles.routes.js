@@ -34,7 +34,7 @@
 					views: {
 					  'menu-content': {
 						abstract: true,
-						templateUrl: "app/profiles/profile.html",
+						templateUrl: "app/profiles/profile/profile.html",
 						controller: 'ProfileCtrl as vm'
 					  }
 					}
@@ -46,7 +46,7 @@
 					url: "/details",
 					views: {
 					  'tab-details': {
-						templateUrl: "app/profiles/profile-tabs/profile-details.html",
+						templateUrl: "app/profiles/profile/details/profile-details.html",
 						controller: 'ProfileDetailsCtrl as vm'
 					  }
 					}
@@ -59,7 +59,7 @@
 					url: "/transcripts",
 					views: {
 					  'tab-transcripts': {
-						templateUrl: "app/profiles/profile-tabs/profile-transcripts.html",
+						templateUrl: "app/profiles/profile/transcripts/profile-transcripts.html",
 						controller: 'ProfileTranscriptsCtrl as vm'
 					  }
 					}
@@ -72,7 +72,7 @@
 					url: "/tests",
 					views: {
 					  'tab-tests': {
-						templateUrl: "app/profiles/profile-tabs/profile-tests.html",
+						templateUrl: "app/profiles/profile/tests/profile-tests.html",
 						controller: 'ProfileTestsCtrl as vm'
 					  }
 					}
@@ -84,7 +84,7 @@
 					url: "/schools",
 					views: {
 					  'tab-schools': {
-						templateUrl: "app/profiles/profile-tabs/profile-schools.html",
+						templateUrl: "app/profiles/profile/schools/profile-schools.html",
 						controller: 'ProfileSchoolsCtrl as vm'
 					  }
 					}

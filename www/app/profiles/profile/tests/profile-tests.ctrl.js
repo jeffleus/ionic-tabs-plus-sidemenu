@@ -1,18 +1,19 @@
-// profile.js
+// profile-tests.ctrl.js
 (function () {
     'use strict';
-    var controllerId = 'ProfileCtrl';
+    var controllerId = 'ProfileTestsCtrl';
 
     angular
         .module('eligcalc.profiles')
-        .controller(controllerId, Profile);
+        .controller(controllerId, profileTets);
 
-	Profile.$inject = ['$log'];
+	profileTets.$inject = ['$log'];
 	
-    function Profile($log) {
+    function profileTets($log) {
         /*jshint validthis: true*/
         var self = this;
         $log.log('Controller Init: ' + controllerId);
         self.student = {first:'Jeff', last:'Leininger'};
+		self.tests = [{title:'Test #1'},{title:'Test #2'},{title:'Test #3'}];
 	}
 })();
