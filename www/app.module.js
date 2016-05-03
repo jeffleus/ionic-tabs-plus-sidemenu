@@ -6,6 +6,7 @@
         .module('eligcalc', ['ionic', 
 							 'blocks.router', 
 							 'eligcalc.core', 
-							 'eligcalc.controllers', 'eligcalc.profiles', 'eligcalc.calculator', 'eligcalc.tests']);
+							 'eligcalc.controllers', 'eligcalc.calculator', 'eligcalc.tests', 
+							 'eligcalc.profiles', 'eligcalc.transcript']);
 
 })();

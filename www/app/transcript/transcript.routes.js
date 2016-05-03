@@ -21,7 +21,7 @@
 			{
 				state: 'app.transcript',
 				config: {
-					url: "/transcript",
+					url: "/transcript/:tid",
 					views: {
 					  'menu-content': {
 						abstract: true,
@@ -37,7 +37,7 @@
 				config: {
 					url: "/summary",
 					views: {
-					  'tab-details': {
+					  'tab-summary': {
 						templateUrl: "app/transcript/summary/transcript-summary.html",
 						controller: 'TranscriptSummaryCtrl as vm'
 					  }
@@ -50,7 +50,7 @@
 				config: {
 					url: "/courses",
 					views: {
-					  'tab-transcripts': {
+					  'tab-courses': {
 						templateUrl: "app/transcript/courses/transcript-courses.html",
 						controller: 'TranscriptCoursesCtrl as vm'
 					  }
@@ -63,7 +63,7 @@
 				config: {
 					url: "/progress",
 					views: {
-					  'tab-tests': {
+					  'tab-progress': {
 						templateUrl: "app/transcript/progress/transcript-progress.html",
 						controller: 'TranscriptProgressCtrl as vm'
 					  }
@@ -76,7 +76,7 @@
 				config: {
 					url: "/images",
 					views: {
-					  'tab-schools': {
+					  'tab-images': {
 						templateUrl: "app/transcript/images/transcript-images.html",
 						controller: 'TranscriptImagesCtrl as vm'
 					  }
